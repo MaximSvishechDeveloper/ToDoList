@@ -1,0 +1,22 @@
+<%- include("partials/header.ejs") %>
+
+<div class = "container">
+    <div class="title"><%= new Date().toUTCString().slice(5, 16); %></div>
+    <div class ="items">
+        <form class="inputForm" action="/" method="post">
+            <input class="input" type="text" name="newItem" placeholder="New Item" autocomplete="off" required="">
+            <input class="submit" type="submit" value="+">        
+        </form>
+        <div class="box">
+          <ul>
+                <% itemsNew.forEach(element => { %>
+                    <li><label><input type="checkbox" class="checked-with-label"><span class="strike-through"><%=element%></span></label></li>
+                 <% }); %>    
+        </ul>
+    </div>
+
+    </div>
+</div>
+
+<%- include("partials/footer.ejs") %>
+

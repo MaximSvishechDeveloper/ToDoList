@@ -1,0 +1,109 @@
+body{
+    background-color: #ede4ff;
+    font-family: 'Comic Neue', cursive; 
+    height: 100vh;
+}
+
+a{
+    float: right;
+    margin-left: 20px;
+    color: #a076f9;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 35px;
+ }
+
+ .container {
+    display: flex;
+    flex-direction:column;
+    height: 550px;
+    width: 400px;
+    background-color: #FFFFFF96;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    margin: 0px;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+  ul {
+    list-style-type: none;
+    list-style-position: inside;
+
+  }
+
+  li{
+    margin-bottom: 40px;
+  }
+
+  .title{
+    background-color: #A076F9;
+    display: block;  
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    border-radius: 15px 15px 0 0;
+    font-weight: bolder;
+    padding-bottom: 10px;
+  }
+  
+  .input{
+    width: 300px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    font-weight: 500;
+    color: #3502b0;  
+}
+
+.submit {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #A076F9;
+    color: #fff;
+    font-size: 30px;
+    border: none;
+}
+
+footer{
+    position: absolute;
+    top: 90%;
+}
+
+span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #3502b0;
+    margin: 0;
+    padding: 20px;
+}
+
+.box {
+    overflow:auto;
+    max-height: 430px;
+}
+
+.strike-through {
+    text-decoration: none; 
+}
+  
+  .checked-with-label:checked + .strike-through {
+    text-decoration: line-through;
+  }
+
+
+  
